@@ -269,7 +269,7 @@ document.getElementById("formulir_pemesanan").addEventListener("submit", async f
     };
 
     // Kirim ke server middle (proxy)
-    fetch("http://localhost:3000/order", {
+    fetch("https://bird-mellow-candle.glitch.me", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
